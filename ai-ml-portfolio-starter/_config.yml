@@ -1,25 +1,26 @@
----
 title: "Sharmila Eday — AI/ML Portfolio"
 name: "Sharmila Eday"
 description: "Master of Science in Artificial Intelligence @UNT — projects, blog, and contact."
-url: "https://sharmilaeday.github.io"  # e.g., https://yourusername.github.io
+url: "https://sharmilaeday.github.io"  # don't add a trailing slash
 baseurl: ""  # leave empty for user site
-# Theme skin (options include default, air, aqua, contrast, dark, dirt, neon, mint, sunrise)
-minimal_mistakes_skin: "aqua"
-theme: jekyll-theme-cayman
+
+# Use Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # options: air, aqua, contrast, dark, dirt, neon, mint, sunrise
+
 markdown: kramdown
 paginate: 5
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-include-cache
 
 author:
   avatar: "/assets/img/Sharmila.JPG"
   name: "Sharmila Eday"
-  bio: "MS in AI @ UNT · Focus: NLP, GenAI and MLOPs · Open to AI/ML roles"
+  bio: "MS in AI @ UNT · Focus: NLP, GenAI, and MLOps · Open to AI/ML roles"
   location: "Dallas–Fort Worth, TX"
   links:
     - label: "Email"
@@ -41,7 +42,7 @@ collections:
     output: true
     permalink: /projects/:name/
 
-# Defaults
+# Defaults for layouts
 defaults:
   - scope:
       path: ""
@@ -62,7 +63,6 @@ defaults:
 
 # SEO/Open Graph
 logo: "/assets/img/Sharmila.JPG"
-twitter_username: ""
 github_username: "SharmilaEday"
 og_image: "/assets/img/og-image.png"
----
+
