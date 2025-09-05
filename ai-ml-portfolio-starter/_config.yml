@@ -2,7 +2,7 @@
 title: "Sharmila Eday — AI/ML Portfolio"
 name: "Sharmila Eday"
 description: "Master of Science in Artificial Intelligence @UNT — projects, blog, and contact."
-url: ""  # e.g., https://yourusername.github.io
+url: "https://sharmilaeday.github.io"  # e.g., https://yourusername.github.io
 baseurl: ""  # leave empty for user site
 # Theme skin (options include default, air, aqua, contrast, dark, dirt, neon, mint, sunrise)
 minimal_mistakes_skin: "aqua"
@@ -17,7 +17,7 @@ plugins:
   - jekyll-sitemap
 
 author:
-  avatar: "/assets/img/headshot.jpg"
+  avatar: "/assets/img/Sharmila.JPG"
   name: "Sharmila Eday"
   bio: "MS in AI @ UNT · Focus: NLP, GenAI and MLOPs · Open to AI/ML roles"
   location: "Dallas–Fort Worth, TX"
@@ -61,8 +61,8 @@ defaults:
       share: true
 
 # SEO/Open Graph
-logo: "/assets/img/headshot.jpg"
+logo: "/assets/img/Sharmila.JPG"
 twitter_username: ""
-github_username: "yourusername"
+github_username: "SharmilaEday"
 og_image: "/assets/img/og-image.png"
 ---
