@@ -1,0 +1,68 @@
+---
+title: "Your Name — AI/ML Portfolio"
+name: "Your Name"
+description: "AI/ML engineer & graduate student — projects, blog, and contact."
+url: ""  # e.g., https://yourusername.github.io
+baseurl: ""  # leave empty for user site
+# Theme skin (options include default, air, aqua, contrast, dark, dirt, neon, mint, sunrise)
+minimal_mistakes_skin: "mint"
+remote_theme: "mmistakes/minimal-mistakes"
+markdown: kramdown
+paginate: 5
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  avatar: "/assets/img/headshot.jpg"
+  name: "Your Name"
+  bio: "MS in AI @ UNT · Focus: NLP, CV, and ML Ops · Open to AI/ML roles"
+  location: "Dallas–Fort Worth, TX"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:you@example.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/your-linkedin/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yourusername"
+    - label: "Resume (PDF)"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/resume.pdf"
+
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      share: true
+      comments: false
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "single"
+      author_profile: true
+      share: true
+
+# SEO/Open Graph
+logo: "/assets/img/headshot.jpg"
+twitter_username: ""
+github_username: "yourusername"
+og_image: "/assets/img/og-image.png"
+---
