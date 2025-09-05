@@ -1,22 +1,30 @@
+# ------------------------------
+# Sharmila Eday — AI/ML Portfolio
+# Minimal Mistakes configuration
+# ------------------------------
+
 title: "Sharmila Eday — AI/ML Portfolio"
 name: "Sharmila Eday"
-description: "Master of Science in Artificial Intelligence @UNT — projects, blog, and contact."
-url: "https://sharmilaeday.github.io"  # don't add a trailing slash
+description: "Master of Science in Artificial Intelligence @ UNT — projects, blog, and contact."
+url: "https://sharmilaeday.github.io"
 baseurl: ""  # leave empty for user site
 
-# Use Minimal Mistakes theme
+# Minimal Mistakes theme (remote)
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "default" # options: air, aqua, contrast, dark, dirt, neon, mint, sunrise
+minimal_mistakes_skin: "mint"  # options: default, air, aqua, contrast, dark, dirt, neon, mint, sunrise
 
+# Markdown & pagination
 markdown: kramdown
 paginate: 5
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-include-cache
 
+# Author info & links
 author:
   avatar: "/assets/img/Sharmila.JPG"
   name: "Sharmila Eday"
@@ -61,8 +69,7 @@ defaults:
       author_profile: true
       share: true
 
-# SEO/Open Graph
+# SEO / Open Graph
 logo: "/assets/img/Sharmila.JPG"
 github_username: "SharmilaEday"
 og_image: "/assets/img/og-image.png"
-
