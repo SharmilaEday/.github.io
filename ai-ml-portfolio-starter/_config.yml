@@ -1,11 +1,11 @@
 ---
-title: "Your Name — AI/ML Portfolio"
-name: "Your Name"
-description: "AI/ML engineer & graduate student — projects, blog, and contact."
+title: "Sharmila Eday — AI/ML Portfolio"
+name: "Sharmila Eday"
+description: "Master of Science in Artificial Intelligence @UNT — projects, blog, and contact."
 url: ""  # e.g., https://yourusername.github.io
 baseurl: ""  # leave empty for user site
 # Theme skin (options include default, air, aqua, contrast, dark, dirt, neon, mint, sunrise)
-minimal_mistakes_skin: "mint"
+minimal_mistakes_skin: "aqua"
 remote_theme: "mmistakes/minimal-mistakes"
 markdown: kramdown
 paginate: 5
@@ -18,19 +18,19 @@ plugins:
 
 author:
   avatar: "/assets/img/headshot.jpg"
-  name: "Your Name"
-  bio: "MS in AI @ UNT · Focus: NLP, CV, and ML Ops · Open to AI/ML roles"
+  name: "Sharmila Eday"
+  bio: "MS in AI @ UNT · Focus: NLP, GenAI and MLOPs · Open to AI/ML roles"
   location: "Dallas–Fort Worth, TX"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:you@example.com"
+      url: "mailto:sharmilaeday@gmail.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/your-linkedin/"
+      url: "https://www.linkedin.com/in/sharmilaeday/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/SharmilaEday"
     - label: "Resume (PDF)"
       icon: "fas fa-fw fa-file-pdf"
       url: "/assets/resume.pdf"
