@@ -6,7 +6,7 @@ url: "https://sharmilaeday.github.io"  # e.g., https://yourusername.github.io
 baseurl: ""  # leave empty for user site
 # Theme skin (options include default, air, aqua, contrast, dark, dirt, neon, mint, sunrise)
 minimal_mistakes_skin: "aqua"
-remote_theme: "mmistakes/minimal-mistakes"
+theme: jekyll-theme-cayman
 markdown: kramdown
 paginate: 5
 
